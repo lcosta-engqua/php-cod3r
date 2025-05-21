@@ -4,14 +4,19 @@
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets\css\estilo.css">
+        <link rel="stylesheet" href="assets\css\exercicio.css">
 
         <title>Ecercício</title>
     </head>
-    <body>
+    <body class="exercicio">
         <header class="cabecalho">
             <h1>Curso PHP</h1>
             <h2>Visualização do Exercício</h2>
         </header>
+        <nav class="navegacao">
+            <a href="#" class="verde">Sem formatação</a>
+            <a href="index.php" class="vermelho">Voltar</a>
+        </nav>
         <main class="principal">
             <div class="conteudo">
                 <nav class="modulos">
