@@ -49,6 +49,16 @@ body {
 .rodape {
     grid-area: rodape;
     background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0px 20px;
+    color: #444;
+
+
+    /*padding: 0px 20px; ou padding-right: 20px;*/
+
     /* Permite o rodapé ficar fixo:
     position: sticky;
     bottom: 0px; 
