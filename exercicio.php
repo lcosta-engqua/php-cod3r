@@ -20,6 +20,19 @@
         <main class="principal">
             <div class="conteudo">
                 <nav class="modulos">
+                    <?php
+                        //http://localhost/exercicio.php
+                        // include("teste/teste.php");
+
+                        //http://localhost/exercicio.php?dir=teste
+                        // include($_GET['dir'] . "/teste.php");
+
+                        //http://localhost/exercicio.php?dir=teste&file=teste
+                        // include($_GET['dir'] . "/" .  $_GET['file'] . ".php");
+
+                        // include("{$_GET['dir']}/{$_GET['file']}.php");
+                        include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
+                    ?>
                 </nav>
             </div>
         </main>
